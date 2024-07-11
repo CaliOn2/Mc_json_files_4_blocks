@@ -1,4 +1,5 @@
-# Credit: CaliOn2
+# credit: CaliOn2
+# https://github.com/CaliOn2/Mc_json_files_4_blocks
 
 fence_types = ["_inventory", "_post", "_side"]
 slab_types = ["", "_top"]
