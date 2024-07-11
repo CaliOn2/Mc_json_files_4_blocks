@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "der:block/name_slab"
+    },
+    "type=double": {
+      "model": "der:block/name"
+    },
+    "type=top": {
+      "model": "der:block/name_slab_top"
+    }
+  }
+}
