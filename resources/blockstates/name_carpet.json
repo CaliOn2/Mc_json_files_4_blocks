@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "der:block/name_carpet"
+      "model": "modid:block/name_carpet"
     }
   }
 }
