@@ -133,7 +133,7 @@ while True:
             model_item.write(model_item_struct.read().replace("name", information1).replace("modid", information4))
             model_item.close()
             model_item_struct.close()
-            registry_code += registry_code + f'public static final RegistryObject<Block> {information1.upper()}_BLOCK = registerBlock("{information1}", () -> new Block(BlockBehaviour.Properties.copy(Blocks.{information5.upper()})));'
+            registry_code += registry_code + f'public static final RegistryObject<Block> {information1.upper()} = registerBlock("{information1}", () -> new Block(BlockBehaviour.Properties.copy(Blocks.{information5.upper()})));'
 
         registry_file.write(registry_code + "\n")
 
